@@ -39,8 +39,8 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell breverages , snacks , meals, falooda, icecreams,etc ",
+        "We have  breverages , snacks , meals, falooda, icecreams,etc"
       ]
     },
     {
@@ -79,6 +79,221 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool."
       ]
+    },
+
+    {
+      "tag": "menu",
+      "patterns": [
+        "What is today's special menu?",
+        "what's there in your menu?",
+        "Tell me your menu!"
+      ],
+      "responses": [
+        "What would you like to prefer breverages,meals,snacks,falooda,icecreams,salads,starters."
+      ]
+    },
+
+    {
+      "tag": "beverages",
+      "patterns": [
+        "what's there in beverages?",
+        "List down the beverages.",
+        "beverages"
+        
+      ],
+      "responses": [
+        "cold coffee - 120, tea - 20, coffee - 50, milkshakes- 100, fruit juices - 120, cold drinks - 220, Mineral water - 30"
+      ]
+    },
+
+    {
+      "tag": "meals",
+      "patterns": [
+        "What is there in meals?",
+        "Tell me about todays meal !",
+        "meal"
+        
+      ],
+      "responses": [
+        "What would you like to prefer veg or non-veg meal ?"
+        
+      ]
+    },
+
+    {
+      "tag": "veg",
+      "patterns": [
+        "What is there in veg meal?",
+        "Tell me about veg meal !"
+        
+      ],
+      "responses": [
+        "Veg thali - 70, Maharaja veg thali - 100, veg Punjabi thali - 150, veg Rajasthani thali - 170, veg Maharshtrain thali - 200, veg gujarati thali - 150"
+
+        
+      ]
+    },
+
+    {
+      "tag": "non-veg",
+      "patterns": [
+        "What is there in non-veg meal?",
+        "Tell me about todays non-veg meal !"
+        
+      ],
+      "responses": [
+        
+        "Mutton  thali - 120, Chicken thali - 150, Egg curry thali - 100, Fish  thali - 200, Crab thali - 150"
+      ]
+    },
+
+    {
+      "tag": "Paneer",
+      "patterns": [
+        "What is there in paneer ?",
+        "Tell me about paneer dishes !"
+        
+      ],
+      "responses": [
+        "Paneer Peshawari - 240, Paneer Mutter - 230, Paneer Palak - 230, Paneer Makhanwala - 240, Paneer Tikka Masala- 230, Paneer Kholhapuri - 220, Paneer Butter Masala - 240, Paneer Burji - 100"
+      ]
+    },
+
+    {
+      "tag": "special vegetable",
+      "patterns": [
+        "What is there in special vegetable?",
+        "Tell me about special vegetable !",
+        "What's there in spl meal?"
+        
+      ],
+      "responses": [
+        "Veg Hangama - 250, Veg Patiyala - 240, Veg Chilly Milly - 300"
+      ]
+    },
+
+    {
+      "tag": "starters",
+      "patterns": [
+        "What is there in starters?",
+        "Show the starters menu !",
+        "What's there in starters?",
+        "What is available in starters ?"
+        
+      ],
+      "responses": [
+      "Gobi tikka tandoori - 230, Aloo tikka tandoori - 200, veg seekh kabab - 250, Hara bhara kabab - 240, paneer achari kabab - 260, veg rolls - 220"
+      ]
+    },
+
+    {
+      "tag": "Indian breads ",
+      "patterns": [
+        "What is there in breads?",
+        "Show the bread menu !",
+        "What is available in indian breads ?"
+        
+      ],
+      "responses": [
+      "Tandoori roti - 60, Butter naan - 80, Chapati - 50, Roti - 40, Khulcha - 70, Garlic Butter naan - 100"
+      ]
+    },
+
+    {
+      "tag": "snacks",
+      "patterns": [
+        "What is there in snacks?",
+        "Tell me about snacks ",
+        "What's there in snacks?",
+        "List down the snacks",
+        "What is available in snacks ?",
+        "snacks"
+        
+      ],
+      "responses": [
+      "Pav Bhaji - 180, Dosa - 140, Sev puri - 120, Dahi Puri - 120, Uttapa - 160, idli - 120, Misal Pav - 140 , Upma- 80, Shira - 80"
+      ]
+    },
+
+    {
+      "tag": "faloodas",
+      "patterns": [
+        "What is there in falooda?",
+        "Show the falooda menu !",
+        "What's there in falooda?",
+        "What is available in falooda ?",
+        "faloodas"
+        
+      ],
+      "responses": [
+      "keasr falooda - 180, Rose falooda - 180, Choclate falooda - 200, Mango falooda - 210, Spl falooda - 260"
+     
+      ]
+    },
+
+    {
+      "tag": "icecreams",
+      "patterns": [
+        "What is there in icecreams?",
+        "Show the icecrem menu !",
+        "What's there in icecreams?",
+        "What is available in icecreams ?",
+        "icecreams"
+        
+      ],
+      "responses": [
+      "vanilla icecream - 100 Tooti fruti icecream - 100, Pista badam icecream - 150, Chocolate overload icecream  - 140, Spl mix fruit icecream - 160, Strawberry icecream - 120"
+      ]
+    },
+
+    {
+      "tag": "salads",
+      "patterns": [
+        "What is there in salad?",
+        "Show the salads menu !",
+        "What's there in salads?",
+        "What is available in salad ?",
+        "salads"
+        
+      ],
+      "responses": [
+      "Mix vegetable salad - 230, fruit salad - 200 , Deit salad - 250"
+      
+      ]
+    },
+
+    {
+      "tag": "order",
+      "patterns": [
+        "place my order",
+        "place the order"
+        
+        
+      ],
+      "responses": [
+        "Do you want to add any more items to your order?",
+      "Got it. Just need your info and we are done",
+      "Your name ? , Your mobile mumber ? , finally delivery address ."
+      
+      ]
+    },
+
+    {
+      "tag": "add",
+      "patterns": [
+        "add pav bhaji",
+        "add samosa"
+        
+        
+      ],
+      "responses": [
+        "Ok"
+      
+      ]
     }
+
+    
+
+
   ]
 }

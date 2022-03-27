@@ -20,7 +20,7 @@ class ChatApplication:
     def _setup_main_window(self):
         self.window.title("Chat")
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=770, height=550, bg=BG_COLOR)
+        self.window.configure(width=1336, height=650, bg=BG_COLOR)
         
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
@@ -41,6 +41,7 @@ class ChatApplication:
         scrollbar = Scrollbar(self.text_widget)
         scrollbar.place(relheight=1, relx=0.974)
         scrollbar.configure(command=self.text_widget.yview)
+
         
         # bottom label
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)

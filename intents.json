@@ -86,10 +86,11 @@
       "patterns": [
         "What is today's special menu?",
         "what's there in your menu?",
-        "Tell me your menu!"
+        "Tell me your menu!",
+        "What menu you have"
       ],
       "responses": [
-        "What would you like to prefer breverages,meals,snacks,falooda,icecreams,salads,starters."
+        "What would you like to prefer beverages,meals,snacks,falooda,icecreams,salads,starters."
       ]
     },
 
@@ -124,7 +125,8 @@
       "tag": "veg",
       "patterns": [
         "What is there in veg meal?",
-        "Tell me about veg meal !"
+        "Tell me about veg meal !",
+        "veg"
         
       ],
       "responses": [
@@ -138,7 +140,8 @@
       "tag": "non-veg",
       "patterns": [
         "What is there in non-veg meal?",
-        "Tell me about todays non-veg meal !"
+        "Tell me about todays non-veg meal !",
+        "non-veg"
         
       ],
       "responses": [
@@ -151,7 +154,8 @@
       "tag": "Paneer",
       "patterns": [
         "What is there in paneer ?",
-        "Tell me about paneer dishes !"
+        "Tell me about paneer dishes !",
+        "paneer"
         
       ],
       "responses": [
@@ -178,7 +182,8 @@
         "What is there in starters?",
         "Show the starters menu !",
         "What's there in starters?",
-        "What is available in starters ?"
+        "What is available in starters ?",
+        "starters"
         
       ],
       "responses": [
@@ -191,7 +196,8 @@
       "patterns": [
         "What is there in breads?",
         "Show the bread menu !",
-        "What is available in indian breads ?"
+        "What is available in indian breads ?",
+        "Indian breads"
         
       ],
       "responses": [
@@ -226,7 +232,7 @@
         
       ],
       "responses": [
-      "keasr falooda - 180, Rose falooda - 180, Choclate falooda - 200, Mango falooda - 210, Spl falooda - 260"
+      "kesar falooda - 180, Rose falooda - 180, Chocolate falooda - 200, Mango falooda - 210, Spl falooda - 260"
      
       ]
     },
@@ -271,9 +277,7 @@
         
       ],
       "responses": [
-        "Do you want to add any more items to your order?",
-      "Got it. Just need your info and we are done",
-      "Your name ? , Your mobile mumber ? , finally delivery address ."
+      "Done. Your order will reach to you soon. Thank You! :)"
       
       ]
     },
@@ -281,15 +285,17 @@
     {
       "tag": "add",
       "patterns": [
-        "add pav bhaji",
-        "add samosa"
+        "add pav bhaji to list",
+        "add falooda",
+        "add icecream to the cart"
         
         
       ],
       "responses": [
-        "Ok"
+        "Ok, added. Would you like to place your order?"
       
       ]
+
     }
 
     

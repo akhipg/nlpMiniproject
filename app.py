@@ -19,7 +19,7 @@ class ChatApplication:
         
     def _setup_main_window(self):
         self.window.title("Chat")
-        self.window.resizable(width=False, height=False)
+        self.window.resizable(width=True, height=True)
         self.window.configure(width=1336, height=650, bg=BG_COLOR)
         
         # head label
